@@ -5,7 +5,7 @@ export default function RegisterForm() {
     <div>
       <form>
         <div className='form-inner'>
-            <h2>Login</h2>
+            <h2>Register</h2>
             {/* ERROR!  */}
             <div className='form-group'>
                 <label htmlFor='name'>Name: </label>
@@ -19,7 +19,11 @@ export default function RegisterForm() {
                 <label htmlFor='password'>Password: </label>
                 <input type="password" name="password" id='password'/>
             </div>
-            <input type="submit" value="LOGIN" />
+            <div className="form-group">
+                <label htmlFor='re-password'>Re-Enter Password: </label>
+                <input type="re-password" name="re-password" id='re-password'/>
+            </div>
+            <input type="submit" value="Register" />
         </div>
     </form>
     </div>
