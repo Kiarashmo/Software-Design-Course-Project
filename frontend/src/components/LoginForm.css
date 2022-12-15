@@ -1,4 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
 * {
     margin: 0;
     box-sizing: border-box;
+    position: relative;
+    background: #FFDCA8;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    position: absolute;
+    width: 530px;
+    height: 130px;
+    left: 635px;
+    top: 0px;
+     
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 154px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+h2 {
+    position: absolute;
+    width: 700px;
+    height: 90px;
+    left: 475px;
+    top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+input {
+    text-indent: 10px;
+    background-color: white;
+}
+
+::placeholder {
+    text-indent: 10px;
+}
+
+#email {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 610px;
+    top: 210px;
+
+    filter: drop-shadow(4px 4px 4px #000000);
+}
+
+#password {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 610px;
+    top: 290px;
+
+    filter: drop-shadow(4px 4px 4px #000000);
+}
+
+h3 {
+    position: absolute;
+    width: 220px;
+    height: 35px;
+    left: 735px;
+    top: 450px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.hr-lines{
+    position: relative;
+}
+
+.hr-lines:before {
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    background: #000000;
+}
+
+.hr-lines::after {
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    right: 235px;
+    background: #000000;
+}
+
+.alt-login {
+    width: 50%;
+    height: 3em;
+    left: 350px;
+    top: 500px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.alt-login div{
+    width: 80%;
+    height: 90%;
+    border-radius: 0.25em;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.google {
+    background-image: url("../icons/google-logo.png");
+}
+
+.linkedin {
+    background-image: url("../icons/linkedin-logo.png");
+}
+
+.signin-btn {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 610px;
+    top: 390px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+
+    background: #FFB443;
+    background-blend-mode: multiply;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
 }
