@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import LoginForm from "./components/LoginForm";
 import RegisterForm from "./components/RegisterForm";
+import Navbar from './components/Navbar'
 
 function App() {
   const adminUser = {
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <RegisterForm/>
     </div>
   );
