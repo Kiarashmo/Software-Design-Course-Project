@@ -1,4 +1,7 @@
 from django.contrib import admin
+
+# from django.db.models import Count
+
 from . import models
 
 
@@ -15,7 +18,21 @@ class MemberAdmin(admin.ModelAdmin):
 
 @admin.register(models.Course)
 class CourseAdmin(admin.ModelAdmin):
-    list_display = ['title', 'create_date']
+    def get_tags(self, obj):
+        return "\n".join([t.title for t in obj.tags.all()])
+
+    list_display = ['title', 'create_date', 'get_tags']
     list_per_page = 10
     ordering = ['title', 'create_date']
-    search_fields = ['title']
+    search_fields = ['title', 'get_tags']
+
+
+@admin.register(models.Tag)
+class TagAdmin(admin.ModelAdmin):
+    def course_count(self, obj):
+        return obj.courses.all().count()
+
+    list_display = ['title', 'course_count']
+    list_per_page = 10
+    ordering = ['title']
+    search_fields = ['title', 'course_count']

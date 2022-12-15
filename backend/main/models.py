@@ -2,10 +2,21 @@ from django.db import models
 
 
 # Create your models here.
+class Tag(models.Model):
+    title = models.CharField(max_length=255)
+    courses = models.ManyToManyField('Course')
+    def __str__(self):
+        return self.title
+
+    class Meta:
+        ordering = ['title']
+
+
 class Course(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField(null=True, blank=True)
     create_date = models.DateTimeField(auto_created=True)
+    tags = models.ManyToManyField(Tag)
 
     def __str__(self):
         return self.title
