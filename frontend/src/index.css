@@ -7,8 +7,7 @@
 
 nav {
   padding-left: 70px;
-  padding-right: 70px;
-  height: 80px;
+  height:70px;
   display:flex;
   align-items: center;
   background-color: #923DFF;
@@ -37,6 +36,7 @@ nav > h4 {
 
 .App {
   height: 100hv;
+  width: 100%;
   align-items: center;
   justify-content: center;
   background-color: #FFDCA8;
