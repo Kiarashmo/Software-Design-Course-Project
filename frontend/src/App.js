@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import LoginForm from "./components/LoginForm";
 import RegisterForm from "./components/RegisterForm";
+import Navbar from './components/Navbar'
 
 function App() {
   const adminUser = {
@@ -21,7 +22,12 @@ function App() {
 
   return (
     <div className="App">
+<<<<<<< HEAD
       <LoginForm/>
+=======
+      <Navbar />
+      <RegisterForm/>
+>>>>>>> 2e242a0348e8dd6e010e4f3b2f9573e201a845d5
     </div>
   );
 }
