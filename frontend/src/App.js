@@ -22,12 +22,7 @@ function App() {
 
   return (
     <div className="App">
-<<<<<<< HEAD
       <LoginForm/>
-=======
-      <Navbar />
-      <RegisterForm/>
->>>>>>> 2e242a0348e8dd6e010e4f3b2f9573e201a845d5
     </div>
   );
 }
