@@ -15,7 +15,7 @@ function Login({ Login, error }) {
             {/* ERROR!  */}
             <div className="form-group">
                 <label htmlFor='email'>Email: </label>
-                <input type="email" name="email" id="email" />
+                <input type="email" placeholder="Enter the username" name="email" id="email" />
             </div>
             <div className="form-group">
                 <label htmlFor='password'>Password: </label>
