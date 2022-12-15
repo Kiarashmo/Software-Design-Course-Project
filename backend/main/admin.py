@@ -11,3 +11,11 @@ class MemberAdmin(admin.ModelAdmin):
     list_per_page = 10
     ordering = ['first_name', 'last_name']
     search_fields = ['first_name__istartswith', 'last_name__istartswith']
+
+
+@admin.register(models.Course)
+class CourseAdmin(admin.ModelAdmin):
+    list_display = ['title', 'create_date']
+    list_per_page = 10
+    ordering = ['title', 'create_date']
+    search_fields = ['title']
