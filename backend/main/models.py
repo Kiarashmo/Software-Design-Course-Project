@@ -4,7 +4,6 @@ from django.db import models
 # Create your models here.
 class Tag(models.Model):
     title = models.CharField(max_length=255)
-    courses = models.ManyToManyField('Course')
 
     def __str__(self):
         return self.title

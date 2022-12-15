@@ -30,7 +30,7 @@ class CourseAdmin(admin.ModelAdmin):
 @admin.register(models.Tag)
 class TagAdmin(admin.ModelAdmin):
     def course_count(self, obj):
-        return obj.courses.all().count()
+        return obj.course_set.all().count()
 
     list_display = ['title', 'course_count']
     list_per_page = 10
