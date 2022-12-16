@@ -34,5 +34,5 @@ class TagAdmin(admin.ModelAdmin):
 
     list_display = ('title', 'course_count')
     list_per_page = 10
-    ordering = ('title', 'course_count')
+    ordering = ('title',)
     search_fields = ('title', 'course_count')
