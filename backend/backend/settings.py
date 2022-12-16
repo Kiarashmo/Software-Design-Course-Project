@@ -80,8 +80,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'softwaregods',
+        'HOST': 'localhost',
+        'USER': 'root',
+        'PASSWORD': 'admin'
     }
 }
 
@@ -129,6 +132,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 STATICFILES_DIRS = [
-     os.path.join(BASE_BASE_DIR, 'frontend', 'build', 'static')
-    
+    os.path.join(BASE_BASE_DIR, 'frontend', 'build', 'static')
+
 ]
