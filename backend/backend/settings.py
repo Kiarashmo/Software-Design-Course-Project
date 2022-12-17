@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'djoser',
     'main',
     'core',
 ]
@@ -130,5 +131,13 @@ STATICFILES_DIRS = [
     os.path.join(BASE_BASE_DIR, 'frontend', 'build', 'static')
 
 ]
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+}
+SIMPLE_JWT = {
+    'AUTH_HEADER_TYPES': ('JWT',),
+}
 
 AUTH_USER_MODEL = 'core.User'
