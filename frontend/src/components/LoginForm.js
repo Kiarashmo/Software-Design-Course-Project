@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
 import "./LoginForm.css"
 
-function Login({ Login, error }) {
-    const [details, setDetails] = useState({name: "", email: "", password: ""});
+function Login() {
+    // const [details, setDetails] = useState({name: "", email: "", password: ""});
 
-    const submitHandler = e => {
-        e.preventDefault();
+    // const submitHandler = e => {
+    //     e.preventDefault();
 
-        Login(details);
-    }
+    //     Login(details);
+    // }
   return (
-    <form onSubmit={submitHandler}>
+    <form>
         <div className='form-inner'>
-            <h1 id='login-head'>HELLO AGAIN!</h1>
-            <h2>welcome back you've been missed</h2>
+            <h1 className='login-h1'>HELLO AGAIN!</h1>
+            <h2 className='login-h2'>welcome back you've been missed</h2>
             {/* ERROR!  */}
 
             <div className="form-group">
@@ -26,7 +26,7 @@ function Login({ Login, error }) {
 
             <div className='signin-btn'>Sign in</div>
 
-            <h3 class="hr-lines">OR</h3>
+            <h3 className='hr-lines login-h3'>OR</h3>
 
             <div className='alt-login'>
                 <div className='google'></div>

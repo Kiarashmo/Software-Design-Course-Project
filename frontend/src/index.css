@@ -1,11 +1,21 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+
+.App {
   margin: 0;
   padding: 0;
+  display: block;
   box-sizing: border-box;
-  font-family: montserrart, sans-serif;
+  font-family: 'Bebas Neue';
+  font-family: 'Roboto', sans-serif;
+  height: 100hv;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFDCA8;
 }
 
 nav {
+  width: 100%;
   padding-left: 70px;
   height:70px;
   display:flex;
@@ -34,11 +44,4 @@ nav > h4 {
   outline: none;
 } */
 
-.App {
-  height: 100hv;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  background-color: #FFDCA8;
-}
 
