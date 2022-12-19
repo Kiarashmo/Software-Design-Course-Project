@@ -1,26 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap");
 
-.App {
+* {
   margin: 0;
   padding: 0;
-  display: block;
-  box-sizing: border-box;
-  font-family: 'Bebas Neue';
-  font-family: 'Roboto', sans-serif;
-  height: 100hv;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  background-color: #FFDCA8;
+  font-family: "Bebas Neue";
+  font-family: "Roboto", sans-serif;
+  background-color: #ffa500;
 }
+
+/* .App {
+  
+} */
 
 nav {
   width: 100%;
   padding-left: 70px;
-  height:70px;
-  display:flex;
+  height: 70px;
+  display: flex;
   align-items: center;
-  background-color: #923DFF;
+  background-color: #923dff;
   box-shadow: 4px 4px 0px #000000;
   padding: 20px 25px;
 }
@@ -36,7 +34,6 @@ nav > h4 {
   margin: auto;
 }
 
-
 /* input, button {
   appearance: none;
   background: none;
@@ -49,7 +46,7 @@ main-page {
   display: block;
   width: 100%;
   height: 100vh;
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
 }
 
 .main-icon {
@@ -62,12 +59,12 @@ main-page > button {
   display: block;
   margin-right: auto;
   color: white;
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   width: 225px;
   font-style: normal;
   font-weight: 400;
   font-size: 33px;
-  background: #923DFF;
+  background: #923dff;
   border: 5px solid #000000;
 }
 
@@ -84,9 +81,6 @@ main-page > div > div > p {
   align-items: center;
 }
 
-.main-text
-{
+.main-text {
   display: block;
 }
-
-
