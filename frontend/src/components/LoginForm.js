@@ -1,41 +1,52 @@
-import React, { useState } from 'react'
-import "./LoginForm.css"
+import React, { useState } from "react";
+import "./LoginForm.css";
 
 function Login() {
-    // const [details, setDetails] = useState({name: "", email: "", password: ""});
+  // const [details, setDetails] = useState({name: "", email: "", password: ""});
 
-    // const submitHandler = e => {
-    //     e.preventDefault();
+  // const submitHandler = e => {
+  //     e.preventDefault();
 
-    //     Login(details);
-    // }
+  //     Login(details);
+  // }
   return (
     <form>
-        <div className='form-inner'>
-            <h1 className='login-h1'>HELLO AGAIN!</h1>
-            <h2 className='login-h2'>welcome back you've been missed</h2>
-            {/* ERROR!  */}
+      <div className="login-form-inner">
+        <h1 className="login-h1">HELLO AGAIN!</h1>
+        <h2 className="login-h2">welcome back you've been missed</h2>
+        {/* ERROR!  */}
 
-            <div className="form-group">
-                <input type="email" placeholder="Enter the email" name="email" id="email" />
-            </div>
-
-            <div className="form-group">
-                <input type="password" placeholder="Enter the password" name="password" id='password'/>
-            </div>
-
-            <div className='signin-btn'>Sign in</div>
-
-            <h3 className='hr-lines login-h3'>OR</h3>
-
-            <div className='alt-login'>
-                <div className='google'></div>
-                <div className='linkedin'></div>
-            </div>
-
+        <div className="login-form-group">
+          <input
+            className="login-form-input"
+            type="email"
+            name="email"
+            placeholder="Enter the email"
+          />
         </div>
+
+        <div className="login-form-group">
+          <input
+            className="login-form-input"
+            type="password"
+            placeholder="Enter the password"
+            name="password"
+          />
+        </div>
+
+        <div className="login-form-group">
+          <input className="login-btn" type="submit" value="Register" />
+        </div>
+
+        <h3 className="login-hr-lines login-h3">OR</h3>
+
+        <div className="alt-login">
+          <button className="google"></button>
+          <button className="linkedin"></button>
+        </div>
+      </div>
     </form>
-  )
+  );
 }
 
-export default Login
+export default Login;
