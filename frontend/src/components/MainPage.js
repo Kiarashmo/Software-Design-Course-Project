@@ -5,10 +5,12 @@ export default function Navbar() {
     return(
         <main-page>
             <div className="icon-text">
-                <h1>Welcome to cohort!</h1>
-                <p>Find like-minded people.<br/>
-                    learn together.</p>
-                <img src={MyIcon}/>    
+                <div className="main-tex">
+                    <h1>Welcome to cohort!</h1>
+                    <p>Find like-minded people.<br/>
+                        learn together.</p>
+                </div>
+                <img src={MyIcon} className='main-icon'/>    
             </div> 
             <button>Join now</button>
         </main-page>
