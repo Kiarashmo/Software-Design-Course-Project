@@ -1,0 +1,110 @@
+.register-form-inner {
+  text-align: center;
+}
+
+.register-h1 {
+  font-family: "Bebas Neue";
+  font-size: 80px;
+  margin-top: 36px;
+}
+
+.register-form-group {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.register-form-input {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 30px;
+  border-color: black;
+  outline: none;
+  width: 392px;
+  height: 48px;
+  font-size: 16px;
+  filter: drop-shadow(4px 4px #000000);
+}
+
+.register-btn {
+  background-color: #ff5f1f;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+  border-color: black;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bold;
+  width: 445px;
+  height: 55px;
+  filter: drop-shadow(4px 4px #000000);
+  cursor: pointer;
+}
+
+.register-h3 {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-top: 48px;
+}
+
+.register-hr-lines::before {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 40%;
+  top: 50%;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  background: #000000;
+}
+
+.register-hr-lines::after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 40%;
+  top: 50%;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  background: #000000;
+}
+
+.alt-register {
+  display: flex;
+  justify-content: center;
+}
+
+.alt-register button {
+  width: 120px;
+  height: 55px;
+  margin-top: 15px;
+  margin-left: 70px;
+  margin-right: 70px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.google {
+  background-image: url("../icons/google-logo.png");
+  background-color: white;
+  border-color: black;
+  filter: drop-shadow(4px 4px #000000);
+}
+
+.linkedin {
+  background-image: url("../icons/linkedin-logo.png");
+  background-color: white;
+  border-color: #000000;
+  filter: drop-shadow(4px 4px #000000);
+}
+
+.register-h4 {
+  margin-top: 25px;
+}
