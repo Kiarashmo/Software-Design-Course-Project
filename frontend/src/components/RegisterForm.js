@@ -25,7 +25,7 @@ export default function RegisterForm() {
             </div>
             <input type="submit" value="Register" />
         </div>
-    </form>
+      </form>
     </div>
   )
 }
