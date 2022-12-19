@@ -33,7 +33,9 @@ function Login() {
             name="password"
           />
         </div>
-
+        <div class="forgot-pass">
+          <a>Forgot Password?</a>
+        </div>
         <div className="login-form-group">
           <input className="login-btn" type="submit" value="Register" />
         </div>
@@ -43,6 +45,11 @@ function Login() {
         <div className="alt-login">
           <button className="google"></button>
           <button className="linkedin"></button>
+        </div>
+        <div className="back-to-register">
+          <h4 className="login-h4">
+            Not a member? <a>Register Now</a>
+          </h4>
         </div>
       </div>
     </form>

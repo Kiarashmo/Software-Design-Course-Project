@@ -50,7 +50,11 @@ export default function RegisterForm() {
               <button className="linkedin"></button>
             </div>
           </div>
-          <div className="back-to-login"><h4 className="register-h4">Already have an account? <a>Sign in</a></h4></div>
+          <div className="back-to-login">
+            <h4 className="register-h4">
+              Already have an account? <a>Sign in</a>
+            </h4>
+          </div>
         </div>
       </form>
     </div>
