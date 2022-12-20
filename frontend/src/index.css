@@ -8,32 +8,6 @@
   background-color: #ffa500;
 }
 
-/* .App {
-  
-} */
-
-nav {
-  width: 100%;
-  padding-left: 70px;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  background-color: #923dff;
-  box-shadow: 4px 4px 0px #000000;
-  padding: 20px 25px;
-}
-
-nav > h3 {
-  margin-right: auto;
-  color: white;
-  background-color: black;
-  border: 3px solid black;
-}
-
-nav > h4 {
-  margin: auto;
-}
-
 /* input, button {
   appearance: none;
   background: none;
