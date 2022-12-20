@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: "Bebas Neue", cursive;
   font-family: "Roboto", sans-serif;
-  background-color: #ffa500;
+  background-color: #FFDCA8;
 }
 
 /* input, button {
@@ -38,7 +38,7 @@ main-page > button {
   font-style: normal;
   font-weight: 400;
   font-size: 33px;
-  background: #923dff;
+  background: #797bba;
   border: 5px solid #000000;
 }
 
