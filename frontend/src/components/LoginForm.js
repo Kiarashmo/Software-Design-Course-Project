@@ -37,7 +37,7 @@ function Login() {
           <a>Forgot Password?</a>
         </div>
         <div className="login-form-group">
-          <input className="login-btn" type="submit" value="Register" />
+          <input className="login-btn" type="submit" value="Sign in" />
         </div>
 
         <h3 className="login-hr-lines login-h3">OR</h3>
