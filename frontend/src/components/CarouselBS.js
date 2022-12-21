@@ -21,10 +21,15 @@ export default function CarouselBS() {
           </Stack>  
         </Carousel.Item>
         <Carousel.Item>
+        <Stack
+        direction="horizontal"
+        className="h-100 justify-content-center align-items-center"
+        gap={3}
+        >
           <CarouselCard />
-        </Carousel.Item>
-        <Carousel.Item>
           <CarouselCard />
+          <CarouselCard />
+          </Stack>  
         </Carousel.Item>
       </Carousel>
     </div>

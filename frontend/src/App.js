@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import MainPage from './components/MainPage'
 import CourseCard from './components/CourseCard';
 import CarouselBS from './components/CarouselBS';
+import CoursesSection from './components/CoursesSection';
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <CarouselBS />
+      <CoursesSection />
     </div>
   );
 }
