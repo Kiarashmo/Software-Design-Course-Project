@@ -3,6 +3,7 @@ import LoginForm from "./components/LoginForm";
 import RegisterForm from "./components/RegisterForm";
 import Navbar from './components/Navbar'
 import MainPage from './components/MainPage'
+import CourseCard from './components/CourseCard';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <MainPage />
+      <CourseCard />
     </div>
   );
 }
