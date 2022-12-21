@@ -40,6 +40,7 @@ main-page > button {
   font-size: 33px;
   background: #797bba;
   border: 5px solid #000000;
+  cursor: pointer;
 }
 
 main-page > div > div > h1 {
