@@ -4,6 +4,7 @@ import RegisterForm from "./components/RegisterForm";
 import Navbar from './components/Navbar'
 import MainPage from './components/MainPage'
 import CourseCard from './components/CourseCard';
+import CarouselBS from './components/CarouselBS';
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <CourseCard />
+      <CarouselBS />
     </div>
   );
 }
