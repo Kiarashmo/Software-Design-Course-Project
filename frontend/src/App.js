@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import LoginForm from "./components/LoginForm";
 import RegisterForm from "./components/RegisterForm";
-import Navbar from './components/Navbar'
-import MainPage from './components/MainPage'
-import CourseCard from './components/CourseCard';
-import CarouselBS from './components/CarouselBS';
-import CoursesSection from './components/CoursesSection';
-
+import Navbar from "./components/Navbar";
+import MainPage from "./components/MainPage";
+import CourseCard from "./components/CourseCard";
+import CarouselBS from "./components/CarouselBS";
+import CoursesSection from "./components/CoursesSection";
 
 function App() {
   // const adminUser = {
