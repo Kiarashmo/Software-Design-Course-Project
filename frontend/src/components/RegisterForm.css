@@ -1,5 +1,9 @@
 .register-form-inner {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .register-h1 {
@@ -9,10 +13,18 @@
 }
 
 .register-form-group {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
+}
+
+.register-form-group label {
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .register-form-input {
@@ -107,4 +119,57 @@
 
 .register-h4 {
   margin-top: 25px;
+}
+
+/*                            */
+.instructions {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 2px solid black;
+  background: white;
+  filter: drop-shadow(4px 4px #000000);
+}
+
+.instructions > svg {
+  margin-top: 4px;
+  margin-right: 4px;
+  margin-left: 4px;
+  background-color: inherit;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+  margin-top: 3.3px;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+  margin-top: 3.3px;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
 }
