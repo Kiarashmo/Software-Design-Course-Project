@@ -28,7 +28,7 @@ main-page {
   margin-left: 50px;
 }
 
-main-page > button {
+.main-page-button {
   margin-top: 100px;
   display: block;
   margin-right: auto;

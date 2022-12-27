@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import MyIcon from "../icons/app-logo.png";
 
 export default function Navbar() {
@@ -15,7 +16,9 @@ export default function Navbar() {
         </div>
         <img src={MyIcon} className="main-icon" />
       </div>
-      <button>Join now</button>
+      <Link to="/register">
+      <button className="main-page-button">Join now</button>
+      </Link>
     </main-page>
   );
 }
