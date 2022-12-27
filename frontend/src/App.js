@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import LoginForm from "./components/LoginForm";
 import RegisterForm from "./components/RegisterForm";
 import Navbar from "./components/Navbar";
@@ -11,7 +12,15 @@ import CoursesSection from "./components/CoursesSection";
 function App() {
   return (
     <div className="App">
-      <TodoList />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<MainPage />} />
+          <Route path='/register' element={<RegisterForm/>} />
+          <Route path='/log-in' element={<LoginForm/>} />
+          <Route path='/courses' element={<CoursesSection/>} />
+        </Routes>
+      </Router>
     </div>
   );
 }
