@@ -38,7 +38,8 @@ nav > .nav-link-header {
   cursor: pointer;
 }
 
-.nav-links > .nav-links-li {
+.nav-links--li {
+  font-family: "Bebas Neue";
   padding: 0px 10px;
   background-color: inherit;
   color: black;
@@ -51,7 +52,7 @@ nav > .nav-link-header {
   background-color: inherit;
 }
 
-.nav-links > li:hover {
+.nav-links--li:hover {
   transform: scale(1.03);
   color: black;
 }
@@ -61,6 +62,7 @@ nav > .nav-link-header {
 }
 
 .nav-singin-btn {
+  margin-right: 0;
   font-family: "Bebas Neue";
   font-size: 30px;
   width: 100px;

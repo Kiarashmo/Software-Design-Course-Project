@@ -8,6 +8,18 @@
   background-color: #ffdca8;
 }
 
+/* input, button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+} */
+
+Link {
+  text-decoration: none;
+  background-color: inherit;
+}
+
 main-page {
   margin-top: 50px;
   display: flex;

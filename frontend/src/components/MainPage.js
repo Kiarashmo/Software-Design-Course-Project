@@ -19,6 +19,9 @@ export default function Navbar() {
         </div>
         <img src={MyIcon} className="main-icon" />
       </div>
+      <Link to="/register" style={{ textDecoration: 'none' }}>
+      <button className="main-page-button">Join now</button>
+      </Link>
     </main-page>
   );
 }
