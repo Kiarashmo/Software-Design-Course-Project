@@ -14,9 +14,16 @@ export default function CarouselBS() {
             className="h-100 justify-content-center align-items-center"
             gap={3}
           >
-            <CarouselCard />
-            <CarouselCard />
-            <CarouselCard />
+            <CarouselCard 
+              img ={require("../icons/MLS.course.png")}
+              text="Machine Learning Course"
+            />
+            <CarouselCard 
+              img ={require("../icons/MLS.course.png")}      text="Deep Learning Course"
+            />
+            <CarouselCard 
+              img ={require("../icons/MLS.course.png")}      text="Backend Course"
+            />
           </Stack>
         </Carousel.Item>
         <Carousel.Item>
@@ -25,9 +32,15 @@ export default function CarouselBS() {
             className="h-100 justify-content-center align-items-center"
             gap={3}
           >
-            <CarouselCard />
-            <CarouselCard />
-            <CarouselCard />
+            <CarouselCard 
+              img ={require("../icons/MLS.course.png")}      text="Frontend Course"
+            />
+            <CarouselCard 
+              img ={require("../icons/MLS.course.png")}      text="DS Course"
+            />
+            <CarouselCard 
+              img ={require("../icons/MLS.course.png")}      text="GAN Course"
+            />
           </Stack>
         </Carousel.Item>
       </Carousel>
