@@ -1,12 +1,11 @@
 import React from "react";
-import MLCourse from "../icons/MLS.course.png";
 import "./CourseCard.css";
 
-export default function CourseCard() {
+export default function CourseCard(props) {
   return (
     <div className="course-card">
-      <img src={MLCourse} className="course-pic" />
-      <h4 className="course-text">Machine Learning Course</h4>
+      <img src={props.img} className="course-pic" />
+      <h4 className="course-text">{props.text}</h4>
     </div>
   );
 }
