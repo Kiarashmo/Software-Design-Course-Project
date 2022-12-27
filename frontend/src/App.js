@@ -5,29 +5,13 @@ import Navbar from "./components/Navbar";
 import MainPage from "./components/MainPage";
 import CourseCard from "./components/CourseCard";
 import CarouselBS from "./components/CarouselBS";
+import TodoList from "./components/taskcomponent/TodoList";
 import CoursesSection from "./components/CoursesSection";
 
 function App() {
-  // const adminUser = {
-  //   email: "admin@admin.com",
-  //   password: "admin",
-  // }
-
-  // const [user, setUser] = useState({name:"", email:""});
-  // const [error, setError] = useState("");
-
-  // const Login = details => {
-  //   console.log(details)
-  // }
-
-  // const Logout = () => {
-  //   console.log("Logout");
-  // }
-
   return (
     <div className="App">
-      <Navbar />
-      <CoursesSection />
+      <TodoList />
     </div>
   );
 }
