@@ -15,7 +15,8 @@
 }
 
 .course-text {
-  padding-bottom: 8px;
+  height: 25%;
+  padding: 8px;
   color: white;
   background: #362d86;
   font-family: "Roboto", sans-serif;

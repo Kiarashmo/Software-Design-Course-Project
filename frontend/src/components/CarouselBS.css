@@ -1,3 +1,7 @@
 .my-carousel {
   height: 250px;
 }
+
+.carousel-indicators {
+  background: none;
+}
