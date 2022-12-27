@@ -13,12 +13,12 @@ export default function Navbar() {
             <br />
             learn together.
           </p>
+          <Link to="/register" style={{ textDecoration: 'none' }} >
+            <button className="main-page-button">Join now</button>
+          </Link>
         </div>
         <img src={MyIcon} className="main-icon" />
       </div>
-      <Link to="/register">
-      <button className="main-page-button">Join now</button>
-      </Link>
     </main-page>
   );
 }

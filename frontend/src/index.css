@@ -8,18 +8,10 @@
   background-color: #ffdca8;
 }
 
-/* input, button {
-  appearance: none;
-  background: none;
-  border: none;
-  outline: none;
-} */
-
 main-page {
-  margin: 50px;
-  display: block;
-  width: 100%;
-  height: 100vh;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
   font-family: "Bebas Neue";
 }
 
@@ -29,7 +21,7 @@ main-page {
 }
 
 .main-page-button {
-  margin-top: 100px;
+  margin-top: 50px;
   display: block;
   margin-right: auto;
   color: white;
@@ -39,7 +31,8 @@ main-page {
   font-weight: 400;
   font-size: 33px;
   background: #797bba;
-  border: 5px solid #000000;
+  border: 4px solid #000000;
+  
   cursor: pointer;
 }
 

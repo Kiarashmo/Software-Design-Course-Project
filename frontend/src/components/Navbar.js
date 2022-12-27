@@ -5,16 +5,21 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <nav>
-      <h3 className="nav-logo">Cohort</h3>
+      <Link to="/" className="nav-link-header">
+        <h3 className="nav-logo">Cohort</h3>
+      </Link>
       <ul className="nav-links">
-        <li>Home</li>
-        <Link to="/courses">
+        <Link className="nav-links-li" to="/">
+          <li>Home</li>
+        </Link>
+        <Link className="nav-links-li" to="/courses">
           <li>Discover</li>
         </Link>
-        <li>Join</li>
       </ul>
       <ul className="nav-links">
-        <button className="nav-singin-btn">Sign in</button>
+        <Link className="nav-links-signin-btn" to="/log-in">
+          <button className="nav-singin-btn">Sign in</button>
+        </Link>
       </ul>
     </nav>
   );
